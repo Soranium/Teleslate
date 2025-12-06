@@ -1,6 +1,6 @@
 ![Image](https://github.com/user-attachments/assets/f5bf53da-01a5-46be-8b5e-3b8e1df836e9)
 # Teleslate
-Teleslate is a lightweight Windows tool that uses a DeepSeek API key
+Teleslate is a lightweight Windows/Linux tool that uses a DeepSeek API key
 to translate text copied to the clipboard.
 
 (Copy text with Ctrl+C → Translate with Ctrl+X)
@@ -13,7 +13,7 @@ It can be used as a simple and convenient alternative when Telegram’s translat
 
 Teleslate は DeepSeek の API Key を使用し、
 
-クリップボードにコピーしたテキストを翻訳する Windows 向けの軽量ツールです。
+クリップボードにコピーしたテキストを翻訳する Windows/Linux向けの軽量ツールです。
 （Ctrl+C でコピー → Ctrl+X で翻訳）
 
 翻訳結果はマウスカーソル付近に小さなポップアップとしてリアルタイム表示されます。
@@ -41,7 +41,7 @@ Teleslate は DeepSeek の API Key を使用し、
 
 ## Requirements
 
-- Windows with Python 3.10 or newer
+- Windows/Linux with Python 3.10 or newer
 - See `requirements.txt` for Python package dependencies
 
 ## Installation
@@ -116,7 +116,7 @@ The `DeepSeekTranslator` class uses `requests` with `stream=True` to fetch trans
 
 ## Troubleshooting
 
-- **Hotkey does not respond:** Try running the script as Administrator. Some global hotkey libraries require elevated privileges on Windows.
+- **Hotkey does not respond:** Try running the script as Administrator. Some global hotkey libraries require elevated privileges on Windows/Linux.
 - **No translation appears:** Ensure you copied text to the clipboard first and that `apikey.txt` contains a valid API token.
 - **API connection errors:** Verify `DeepSeekTranslator.API_URL` is correct and check your network/proxy settings. Confirm your API token is valid.
 - **Popup not showing:** Check that text was actually copied to the clipboard and is not empty.
