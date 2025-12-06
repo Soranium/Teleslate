@@ -75,7 +75,3 @@ This project follows the terms in the repository `LICENSE` file.
 Contributing
 
 - Bug reports and small improvements are welcome. For larger changes (new features, refactor), please open an issue first so we can discuss the design.
-
-Questions or next steps
-
-- I can add/adjust a clear `requirements.txt`, produce an English/expanded README (this is already the English version), or add a simple config file to control hotkey and fonts—which would you like next?
