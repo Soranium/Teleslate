@@ -38,7 +38,6 @@ This tool is useful when other translation services become paid or restricted an
 ```powershell
 git clone https://github.com/Soranium/Teleslate.git
 cd Teleslate
-python teleslate.py
 ```
 
 2. Create `apikey.txt` in the repository root and paste your API bearer token as a single line:
@@ -50,7 +49,7 @@ sk-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 3. Install Python dependencies:
 
 ```powershell
-python -m pip install -r requirements.txt
+pip install -r requirements.txt
 ```
 
 4. Run the app:
