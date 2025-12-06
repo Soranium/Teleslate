@@ -1,3 +1,4 @@
+![Image](https://github.com/user-attachments/assets/f5bf53da-01a5-46be-8b5e-3b8e1df836e9)
 # Teleslate
 Teleslate is a lightweight Windows tool that uses a DeepSeek API key
 to translate text copied to the clipboard.
