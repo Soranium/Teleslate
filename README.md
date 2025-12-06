@@ -1,11 +1,19 @@
 # Teleslate
+Teleslate is a lightweight Windows tool that uses a DeepSeek API key
+to translate text copied to the clipboard.(Copy text with Ctrl+C → Translate with Ctrl+X)
+The translation result appears in real time as a small popup near the mouse cursor.
 
-A small, clipboard-based translation utility for Windows.
+It serves as a simple alternative when built-in or free translation services become restricted or paid.
 
-Teleslate reads text from the clipboard and sends it to an external streaming translation API (for example, DeepSeek). The translated text is shown in a small popup window near the mouse cursor as the API streams the result.
+--japanese--
+Teleslate は DeepSeek の API Key を使用し、
+クリップボードにコピーしたテキストを翻訳する Windows 向けの軽量ツールです。
+（Ctrl+C でコピー → Ctrl+X で翻訳）
 
-This tool is useful when other translation services become paid or restricted and you want to use your own API key.
+翻訳結果はマウスカーソル付近に小さなポップアップとしてリアルタイム表示されます。
 
+標準の翻訳機能や無料サービスが制限されたり有料化された場合の、
+シンプルで手軽な代替手段として利用できます。
 ## Table of contents
 
 - [Features](#features)
